@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import { Button, Input } from 'semantic-ui-react';
 
 import './Content.css';
+import './Control.css';
 
 import moment from 'moment';
 
@@ -28,7 +29,7 @@ class Content extends Component {
 
     render() {
         return (
-            <div style={{height: '50px', width: '95%', margin: '0 auto', marginBottom: '5px', marginTop: '10px'}}>
+            <div style={{height: '50px', width: '95%', margin: '0 auto', marginBottom: '5px', marginTop: '10px', display:'block'}}>
                 <div style={{float: 'left', display: 'inline', width: '410px', paddingTop: '5px', verticalAlign: 'middle'}}>
                     <span style={{verticalAlign: 'middle'}}>
                     <DatePickerInput
@@ -62,10 +63,12 @@ class Content extends Component {
                     />
                     </span>
                 </div>
+
                 <Input action={ <Button content='Get stats'
                     onClick={ (event, data) => { 
                         this.props.setGroupUrl(this.state.currUrl);
-                     } } />}
+                     } }/>}
+                    className='searchBar'
                     placeholder='Paste group URL here...'
                     style={{float: 'right', width: '500px'}}
                     onChange={(event, data) => {this.setState({currUrl: data.value})}}

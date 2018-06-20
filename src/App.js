@@ -68,7 +68,6 @@ class App extends Component {
       groupURL: url,
       onIntro: false
     });
-
   }
 
   render() {

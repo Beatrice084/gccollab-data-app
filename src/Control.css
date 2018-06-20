@@ -6,3 +6,46 @@
     z-index: 450;
     pointer-events: none;
 }
+
+@media only screen and (max-width: 1175px) and (min-width: 680px){
+    .searchBar{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+  }
+  
+  @media only screen and (max-width: 689px) and (min-width: 560px){
+    .searchBar{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+  }
+  
+  @media only screen and (max-width: 559px) and (min-width: 475px){
+    .searchBar{
+        width: 400px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+  }
+  
+  @media only screen and (max-width: 475px) and (min-width: 375px){
+    .searchBar{
+        width: 200px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+  }  
+  
+  @media only screen and (max-width: 375px){
+    .searchBar{
+        width: 100px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+    }
+  }
