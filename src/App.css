@@ -61,3 +61,58 @@ html {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media only screen and (max-width: 1175px) and (min-width: 680px){
+  .container{
+    background-color: lightblue !important;
+  }
+
+  .container2{
+    margin-left: 33px !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 689px) and (min-width: 560px){
+  .container{
+      background-color: lightgreen !important;
+  }
+
+  container2{
+    margin-left: 28px !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 559px) and (min-width: 475px){
+  .container{
+    background-color: red !important;
+  }
+
+  .container2{
+    margin-left: 33px !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 475px) and (min-width: 375px){
+  .container{
+    background-color: darkblue !important;
+  }
+
+  .container2{
+    margin-left: 28px !important;
+    margin-top: 30px !important;
+  }
+}  
+
+@media only screen and (max-width: 375px){
+  .container{
+    background-color: yellow !important;
+  }
+
+  .container2{
+    margin-left: 28px !important;
+    margin-top: 30px !important;
+  }
+}
