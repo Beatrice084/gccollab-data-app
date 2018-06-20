@@ -20,7 +20,7 @@ class Content extends Component {
     }
     render() {
         return (
-            <div style={{margin: '0 auto', backgroundColor: '#fff', border: '2px solid lightgray', borderRadius: '5px', width: '95%'}}>
+            <div class="bigBox" style={{margin: '0 auto', backgroundColor: '#fff', border: '2px solid lightgray', borderRadius: '5px', width: '95%'}}>
                 <div className="pageviews" style={{width: '100%'}}>
                     <LineChart2
                         title="Page views"

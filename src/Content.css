@@ -1,0 +1,259 @@
+@media only screen and (max-width: 1175px) and (min-width: 680px){
+    .pageviews{
+        margin-right: 1.25% !important;
+        margin-left: 1.25% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .membership{
+        margin-right: 1.25% !important;
+        margin-left: 1.25% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .deps{
+        margin-right: 1.25% !important;
+        margin-left: 1.25% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .top-content{
+        margin-top: 10px !important; 
+        margin-left: 1% !important;  
+        margin-right: 1% !important; 
+        display: inline-block !important; 
+        width: 98% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        margin-bottom: 10px !important;
+        position: relative !important;
+    }
+  } 
+  
+  @media only screen and (max-width: 689px) and (min-width: 560px){
+    .pageviews{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .membership{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .deps{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .top-content{
+        margin-top: 10px !important; 
+        margin-left: 1% !important; 
+        margin-right: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        margin-bottom: 10px !important;
+        position: relative !important;
+    }
+  }
+  
+  @media only screen and (max-width: 559px) and (min-width: 475px){
+    .pageviews{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .membership{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .deps{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .top-content{
+        margin-top: 10px !important; 
+        margin-left: 1% !important; 
+        margin-right: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        margin-bottom: 10px !important;
+        position: relative !important;
+    }
+    .bigBox{
+        margin: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important; 
+        border-radius: 5px !important; 
+        width: 95% !important;
+      }
+  }
+  
+  @media only screen and (max-width: 475px) and (min-width: 375px){
+    .pageviews{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .membership{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .deps{
+        margin-right: 1% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .top-content{
+        margin-top: 10px !important; 
+        margin-left: 1% !important; 
+        margin-right: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        margin-bottom: 10px !important;
+        position: relative !important;
+    }
+    .bigBox{
+        margin: 5px !important; 
+        background-color: rgb(255, 255, 255) !important; 
+        border: 2px solid lightgray !important; 
+        border-radius: 5px !important; 
+        width: 95% !important;
+      }
+  }  
+  
+  @media only screen and (max-width: 375px){
+    .pageviews{
+        margin-right: 1.25% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .membership{
+        margin-right: 1.25% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .deps{
+        margin-right: 1.25% !important;
+        margin-left: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        position: relative !important;
+    }
+
+    .top-content{
+        margin-top: 10px !important; 
+        margin-left: 1% !important; 
+        margin-right: 1% !important; 
+        display: inline-block !important; 
+        width: 97% !important; 
+        border-radius: 5px !important; 
+        background-color: rgb(249, 249, 249) !important; 
+        border: 2px solid lightgray !important;
+        margin-bottom: 10px !important;
+    }
+    .bigBox{
+        margin: 5px !important; 
+        background-color: rgb(255, 255, 255) !important; 
+        border: 2px solid lightgray !important; 
+        border-radius: 5px !important; 
+        width: 95% !important;
+      }
+  }
