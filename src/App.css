@@ -6,7 +6,7 @@ background-color: #f9f9f9;
   height: 100%;
 }
 
-svg { position: absolute !important }
+/* svg { position: absolute !important } */
 
 root {
   background-image: "url(https://gccollab.ca//mod/gc_splash_page_collab/graphics/Peyto_Lake-Banff_NP-Canada.jpg)";
@@ -88,7 +88,7 @@ html {
   }
   #container2{
     /* margin-left: 33px !important; */
-    margin-top: 20px !important;
+    margin-top: 45px !important;
   }
 }
 
@@ -98,7 +98,7 @@ html {
   }
   #container2{
     /* margin-left: 28px !important; */
-    margin-top: 30px !important;
+    margin-top: 45px !important;
   }
 }  
 
@@ -108,6 +108,6 @@ html {
   }
   #container2{
     /* margin-left: 28px !important; */
-    margin-top: 30px !important;
+    margin-top: 78px !important;
   }
 }
