@@ -158,7 +158,6 @@ class ContentBarChart extends Component {
     }
 
     render() {
-        let sz = { height: 240, width: 500 };
 
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px',padding:'0 0', display: 'inline-block', width: '98%', align: 'center', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
@@ -180,12 +179,12 @@ class ContentBarChart extends Component {
                 <div>
                     <Loader size='huge' active className={this.state.loaderClass} >Loading</Loader>
                 </div>
-                <div className={this.state.barChartClass} style={{float: 'left'}}>
+                <div id = 'chart4' class = 'chart4' className={this.state.barChartClass} style={{float: 'left'}}>
                     <C3Chart data={this.state.data}
+                        className = 'c3chart'
                         tooltip={{grouped: false}}
                         legend={{show: false}}
                         type="bar"
-                        size={sz}
                         unloadBeforeLoad={true}
                         bar={{width: { ratio: 0.9}}}
                         grid={{focus: { show: false}}}

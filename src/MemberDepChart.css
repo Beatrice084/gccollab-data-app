@@ -1,0 +1,93 @@
+.c3-axis-x > .tick {
+    fill:none
+}
+
+.hide {
+    display: none;
+}
+.c3chart{
+    height: 200px;
+}
+#chart3{
+    display: inline-block !important; 
+    width: 500px !important; 
+    height: 200px !important; 
+    padding: 5px !important;
+}
+@media only screen and (max-width: 1175px) and (min-width: 980px){
+    #chart3{
+        /* float: None;
+        margin-top: 10px !important; 
+        display: block !important; 
+        width: 70% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+        margin-top: 5% !important;
+        margin: 0 auto !important; */
+        display: inline-block !important; 
+        width: 500px !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 18% !important;
+        margin-left: 18% !important; 
+    }
+}
+@media only screen and (max-width: 980px) and (min-width: 680px){
+    #chart3{
+        /* float: None;
+        margin-top: 10px !important; 
+        display: block !important; 
+        width: 70% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+        margin-top: 5% !important;
+        margin: 0 auto !important; */
+        display: inline-block !important; 
+        width: 500px !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 18% !important;
+        margin-left: 8% !important; 
+    }
+}
+@media only screen and (max-width: 689px) and (min-width: 560px){
+    #chart3{
+        display: inline-block !important; 
+        width: 95% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 559px) and (min-width: 475px){
+    #chart3{
+        display: inline-block !important; 
+        width: 95% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 475px) and (min-width: 375px){
+    #chart3{
+        display: inline-block !important; 
+        width: 95% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #chart3{
+        display: inline-block !important; 
+        width: 95% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+    }
+}
