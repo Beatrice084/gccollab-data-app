@@ -14,17 +14,42 @@
     height: 200px !important; 
     padding: 5px !important;
 }
-@media only screen and (max-width: 1175px) and (min-width: 680px){
+@media only screen and (max-width: 1175px) and (min-width: 925px){
     #chart4{
-        float: None;
+        /* float: None;
         margin-top: 10px !important; 
         display: block !important; 
-        width: 475px !important; 
+        width: 70% !important; 
         height: 200px !important; 
         padding: 5px !important;
         margin-right: 5px !important;
         margin-top: 5% !important;
-        margin: 0 auto !important;
+        margin: 0 auto !important; */
+        display: inline-block !important; 
+        width: 60% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+        margin-left: 18% !important; 
+    }
+}
+@media only screen and (max-width: 925px) and (min-width: 680px){
+    #chart4{
+        /* float: None;
+        margin-top: 10px !important; 
+        display: block !important; 
+        width: 70% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+        margin-top: 5% !important;
+        margin: 0 auto !important; */
+        display: inline-block !important; 
+        width: 75% !important; 
+        height: 200px !important; 
+        padding: 5px !important;
+        margin-right: 5px !important;
+        margin-left: 10% !important; 
     }
 }
 @media only screen and (max-width: 689px) and (min-width: 560px){
