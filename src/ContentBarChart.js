@@ -179,7 +179,7 @@ class ContentBarChart extends Component {
                 <div>
                     <Loader size='huge' active className={this.state.loaderClass} >Loading</Loader>
                 </div>
-                <div id = 'chart4' class = 'chart4' className={this.state.barChartClass} style={{float: 'left'}}>
+                <div id = 'chart4' className={this.state.barChartClass} style={{float: 'left'}}>
                     <C3Chart data={this.state.data}
                         className = 'c3chart'
                         tooltip={{grouped: false}}
@@ -190,7 +190,7 @@ class ContentBarChart extends Component {
                         grid={{focus: { show: false}}}
                     />
                 </div>
-                <div style={{width: '500px', float: 'right'}}>
+                <div id = 'table4' style={{width: '500px', float: 'right'}}>
                     <DataTable data={this.state.showAll ? this.state.fullData : this.state.partialData}
                         className={this.state.contentClass}
                         style={{borderBottom: '20px'}}

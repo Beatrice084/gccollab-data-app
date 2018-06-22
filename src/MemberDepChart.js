@@ -189,7 +189,7 @@ class MemberDepChart extends Component {
                         grid={{focus: { show: false}}}
                     />
                 </div>
-                <div style={{width: '500px', float: 'right'}} >
+                <div id = 'table3' style={{width: '500px', float: 'right'}} >
                     <DataTable data={this.state.showAll ? this.state.fullData : this.state.partialData}
                         className={this.state.dataTableClass}
                         style={{borderBottom: '20px'}}
