@@ -10,11 +10,11 @@
 }
 #chart4{
     display: inline-block !important; 
-    width: 475px !important; 
+    width: 500px !important; 
     height: 200px !important; 
     padding: 5px !important;
 }
-@media only screen and (max-width: 1175px) and (min-width: 925px){
+@media only screen and (max-width: 1175px) and (min-width: 980px){
     #chart4{
         /* float: None;
         margin-top: 10px !important; 
@@ -26,14 +26,14 @@
         margin-top: 5% !important;
         margin: 0 auto !important; */
         display: inline-block !important; 
-        width: 60% !important; 
+        width: 500px !important; 
         height: 200px !important; 
         padding: 5px !important;
-        margin-right: 5px !important;
+        margin-right: 18% !important;
         margin-left: 18% !important; 
     }
 }
-@media only screen and (max-width: 925px) and (min-width: 680px){
+@media only screen and (max-width: 980px) and (min-width: 680px){
     #chart4{
         /* float: None;
         margin-top: 10px !important; 
@@ -45,11 +45,11 @@
         margin-top: 5% !important;
         margin: 0 auto !important; */
         display: inline-block !important; 
-        width: 75% !important; 
+        width: 500px !important; 
         height: 200px !important; 
         padding: 5px !important;
-        margin-right: 5px !important;
-        margin-left: 10% !important; 
+        margin-right: 18% !important;
+        margin-left: 8% !important; 
     }
 }
 @media only screen and (max-width: 689px) and (min-width: 560px){
