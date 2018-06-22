@@ -20,10 +20,12 @@ class Content extends Component {
     }
     render() {
         return (
-            <div class="bigBox" style={{margin: '0 auto', backgroundColor: '#fff', border: '2px solid lightgray', borderRadius: '5px', width: '95%'}}>
+            <div class="bigBox" style={{margin: '0 auto', backgroundColor: '#fff', border: '2px solid lightgray', borderRadius: '5px', width: '95%', float: 'none'}}>
                 <div className="pageviews" style={{width: '100%'}}>
                     <LineChart2
                         title="Page views"
+                        className='linechart1'
+                        style={{float: 'none'}}
                         startDate={this.props.startDate}
                         endDate={this.props.endDate}
                         groupURL={this.props.groupURL}

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1175px) and (min-width: 680px){
     .pageviews{
-        margin-right: 1.25% !important;
-        margin-left: 1.25% !important; 
+        margin-right: auto !important;
+        margin-left: auto !important; 
         display: inline-block !important; 
         width: 97% !important; 
         border-radius: 5px !important; 
@@ -44,6 +44,9 @@
         margin-bottom: 10px !important;
         position: relative !important;
     }
+    .bigBox{
+        margin-top: 50px !important;
+      }
   } 
   
   @media only screen and (max-width: 689px) and (min-width: 560px){
@@ -92,6 +95,9 @@
         margin-bottom: 10px !important;
         position: relative !important;
     }
+    .bigBox{
+        margin-top: 50px !important;
+      }
   }
   
   @media only screen and (max-width: 559px) and (min-width: 475px){
@@ -146,6 +152,7 @@
         border: 2px solid lightgray !important; 
         border-radius: 5px !important; 
         width: 95% !important;
+        margin-top: 50px !important;
       }
   }
   
@@ -201,6 +208,7 @@
         border: 2px solid lightgray !important; 
         border-radius: 5px !important; 
         width: 95% !important;
+        margin-top:50px !important;
       }
   }  
   
@@ -255,5 +263,6 @@
         border: 2px solid lightgray !important; 
         border-radius: 5px !important; 
         width: 95% !important;
+        margin-top: 70px !important;
       }
   }

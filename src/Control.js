@@ -29,8 +29,8 @@ class Content extends Component {
 
     render() {
         return (
-            <div style={{height: '50px', width: '95%', margin: '0 auto', marginBottom: '5px', marginTop: '10px', display:'block'}}>
-                <div style={{float: 'left', display: 'inline', width: '410px', paddingTop: '5px', verticalAlign: 'middle'}}>
+            <div className="controlDiv" style={{height: '50px', width: '95%', margin: '0 auto', marginBottom: '5px', marginTop: '10px', display:'block'}}>
+                <div className="datePickerss" style={{float: 'left', display: 'inline', width: '410px', paddingTop: '5px', verticalAlign: 'middle'}}>
                     <span style={{verticalAlign: 'middle'}}>
                     <DatePickerInput
                         displayFormat='DD/MM/YYYY'

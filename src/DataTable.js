@@ -24,7 +24,7 @@ class DataTable extends Component {
             overflow = 'auto';
         }
         return (
-            <div style={{width: '500px', overflow: 'auto', height:'200px', float: 'right'}}> 
+            <div className="table" style={{width: '500px', overflow: 'auto', height:'200px', float: 'right'}}> 
                 <HotTable
                     data={this.props.data}
                     contextMenu={true}
