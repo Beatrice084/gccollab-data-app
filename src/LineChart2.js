@@ -218,18 +218,23 @@ class LineChart2 extends Component {
                 
                 <Loader style={{}} size='huge' active className={this.state.loaderClass} >Loading</Loader>
 
-                <div className={this.state.contentClass} style={{float: 'left'}}>
+                <div className={this.state.contentClass} style={{float: 'left'}} id="lineChartPageviews">
                     <C3Chart data={this.state.data}
+                        className='chartss'
                         axis={this.state.axis}
-                        size={sz}
+
                         unloadBeforeLoad={true}
+
                     />
                 </div>
-                <DataTable
-                    data={spreadsheetData}
-                    className={this.state.contentClass + ' ' + scrollTable}
-                    headers={['Date','Views']}
-                />
+                <div id="table1">
+                    <DataTable
+                        data={spreadsheetData}
+                        id="tablePageviews"
+                        className={this.state.contentClass + ' ' + scrollTable}
+                        headers={['Date','Views']}
+                    />
+                </div>
             </Segment>
         );
     }

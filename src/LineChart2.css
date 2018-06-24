@@ -1,3 +1,74 @@
 .scrollTable {
     overflow: hidden;
 }
+.chartss{
+    height: 240px;
+    width: 500px;
+}
+@media only screen and (max-width: 1175px) and (min-width: 990px){
+    #lineChartPageviews{
+        float: right !important;
+        margin-right: 200px !important;
+    }
+    .chartss{
+        float: none !important;
+        margin-right: 00px !important;
+    }
+  }
+
+  @media only screen and (max-width: 990px) and (min-width: 680px){
+    #lineChartPageviews{
+        float: right !important;
+        margin-right: 75px !important;
+    }
+    .chartss{
+        float: none !important;
+        margin-left: auto !important;
+    }
+  } 
+  
+  @media only screen and (max-width: 689px) and (min-width: 560px){
+    #lineChartPageviews{
+        float: none !important;
+        margin-right: 75px !important;
+    }
+    .chartss{
+        width: 112% !important;
+        float: none !important;
+        margin-left: auto !important;
+    }
+    #table1{
+        /* width: 35px !important; */
+    }
+    /* #tablePageviews{
+        width: 95% !important;
+    } */
+  }
+  
+  @media only screen and (max-width: 559px) and (min-width: 475px){
+    #lineChartPageviews{
+        float: none !important;
+        
+    }
+    .chartss{
+        width: 95% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 475px) and (min-width: 375px){
+    #lineChartPageviews{
+        float: none !important;
+    }
+    .chartss{
+        width: 95% !important;
+    }
+  }  
+  
+  @media only screen and (max-width: 375px){
+    #lineChartPageviews{
+        float: none !important;
+    }
+    .chartss{
+        width: 95% !important;
+    }
+  }

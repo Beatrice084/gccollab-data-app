@@ -38,7 +38,7 @@ class DataTable extends Component {
                     colHeaders={this.props.headers}
                     rowHeaders={false}
                     renderAllRows={true}
-                    
+                    className="tableHot"
                     
                 />
             </div>

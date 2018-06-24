@@ -134,7 +134,7 @@ class LineChart extends Component {
         return (
             <div>
                 <svg className="currGraph" ref={node => this.node = node}
-                    width={this.props.w} height={this.props.h} />
+                    width={this.props.w} height={this.props.h} style={{backgroundColor: black}} />
             </div>
         );
     }

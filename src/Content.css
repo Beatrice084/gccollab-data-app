@@ -208,9 +208,9 @@
         border: 2px solid lightgray !important; 
         border-radius: 5px !important; 
         width: 95% !important;
-        margin-top:50px !important;
+        margin-top:70px !important;
       }
-  }  
+  }
   
   @media only screen and (max-width: 375px){
     .pageviews{

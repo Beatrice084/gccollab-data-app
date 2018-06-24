@@ -63,9 +63,9 @@
     }
     .my-react-component{
         width: 50px !important;
-        margin-right: 155px !important;
+        margin-right: 360px !important;
     }
-  }  
+  }
   
   @media only screen and (max-width: 375px){
     .searchBar{

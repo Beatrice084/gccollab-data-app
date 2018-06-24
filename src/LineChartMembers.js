@@ -210,18 +210,20 @@ class LineChartMembers extends Component {
                 <div>
                     <Loader size='huge' active className={this.state.loaderClass} >Loading</Loader>
                 </div>
-                <div className={this.state.contentClass} style={{float: 'left'}}>
+                <div className={this.state.contentClass} style={{float: 'left'}} id="lineChartMembers">
                     <C3Chart data={this.state.data}
                         axis={this.state.axis}
-                        size={sz}
+                        className='chartsss'
                         unloadBeforeLoad={true}
                     />
                 </div>
-                <DataTable
-                    data={spreadsheetData}
-                    className={this.state.contentClass + scrollTable}
-                    headers={['Date','Views']}
-                />
+                <div id="table2">
+                    <DataTable
+                        data={spreadsheetData}
+                        className={this.state.contentClass + scrollTable}
+                        headers={['Date','Views']}
+                    />
+                </div>
             </Segment>
         );
     }
