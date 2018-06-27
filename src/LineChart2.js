@@ -44,6 +44,7 @@ class LineChart2 extends Component {
                     }
                 }
             },
+            groupName: '',
             interval: 'daily',
             dataBackup: {
                 // This is only here to prevent errors from changing interval before data is loaded
@@ -97,6 +98,15 @@ class LineChart2 extends Component {
             data[this.state.interval].pageviews.unshift('pageviews');
             data[this.state.interval].dates.unshift('date');
             
+            // Determine if group name is an object or not
+            let groupName = ''
+            try {
+                groupName = JSON.parse(data.group_name).en;
+            } catch (err) {
+                console.log(err);
+                groupName = data.group_name;
+            }
+
             // Update the state
             this.setState({
                 data: {
@@ -104,6 +114,7 @@ class LineChart2 extends Component {
                     columns: [data[this.state.interval].dates, data[this.state.interval].pageviews],
                     xFormat: '%Y%m%d',
                 },
+                groupName: groupName,
                 dataBackup: dataBackup,
                 loaderClass: 'hidden',
                 contentClass: '',
@@ -209,10 +220,11 @@ class LineChart2 extends Component {
         this.handleIntervalChange;
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px', padding: '0 0', display: 'inline-block', width: '98%', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
+                <div className = 'title'>{this.state.groupName}</div>
                 <table className="content-box-heading" style={{width: '100%'}}>
                     <tr>
                         <td>
-                            <span className='outercsv' style={{float: 'left', verticalAlign: 'top', paddingLeft:'15px'}}> {this.props.title}
+                            <span className='outercsv0' style={{float: 'left', verticalAlign: 'top', paddingLeft:'15px'}}> {this.props.title}
                                 <IconButton tooltip="Download data as CSV" style={{padding: 0, height:'40px', width:'40px'}} onClick={this.downloadCSV}>
                                     <FileFileDownload />
                                 </IconButton> 

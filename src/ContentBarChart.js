@@ -161,7 +161,6 @@ class ContentBarChart extends Component {
     }
 
     render() {
-
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px',padding:'0 0', display: 'inline-block', width: '98%', align: 'center', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
                 <table className = 'topBar' style={{}}>
@@ -172,7 +171,6 @@ class ContentBarChart extends Component {
                                     <FileFileDownload />
                                 </IconButton> 
                             </span>
-                            
                         </td>
                     </tr>
                 </table>
