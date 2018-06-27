@@ -139,6 +139,9 @@ class MemberDepChart extends Component {
                 dataTableClass: '',
                 loaderClass: 'hidden'
             });
+            this.setState({
+                showAll: this.state.showAll
+            });
         });
     }
 

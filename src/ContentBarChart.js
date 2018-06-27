@@ -139,6 +139,9 @@ class ContentBarChart extends Component {
                 loaderClass: 'hidden',
                 contentClass: ''
             });
+            this.setState({
+                showAll: this.state.showAll
+            });
         });
     }
 
