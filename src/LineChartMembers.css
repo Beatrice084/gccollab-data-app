@@ -21,6 +21,7 @@
     .chartsss{
         float: none !important;
         margin-left: auto !important;
+        display: inline-block !important; 
     }
   } 
   

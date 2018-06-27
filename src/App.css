@@ -72,6 +72,15 @@ html {
   }
 }
 
+@media only screen and (max-width: 1175px) and (min-width: 990px){
+  /* .App-intro{
+    width: 700px !important;
+  } */
+  .container{
+    /* width: 700px !important; */
+  }
+}
+
 @media only screen and (max-width: 689px) and (min-width: 560px){
   .container{
     background-color: lightgreen !important;

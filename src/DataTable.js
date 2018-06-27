@@ -39,7 +39,9 @@ class DataTable extends Component {
                     rowHeaders={false}
                     renderAllRows={true}
                     className="tableHot"
-                    
+                    manualColumnResize= {true}
+                    manualRowResize= {true}
+                    search={true}
                 />
             </div>
         );

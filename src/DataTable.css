@@ -4,11 +4,19 @@
     margin-left: 10px;
     margin-right: 10px; */
 }
+.tableHot{
+    /* background-colorgb(0, 0, 0)ack !important; */
+}
 @media only screen and (max-width: 1175px) and (min-width: 680px){
     .table{
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important;
+        /* background-color: black !important; */
+        /* width: 1000px !important; */
+    }
+    .tableHot{
+        /* width: 1000px !important; */
     }
 }
 
@@ -18,16 +26,22 @@
         margin-left: auto !important;
         margin-right: auto !important;
         margin-bottom: 10px !important;
-        /* width: 100% !important; */
+        width: 86% !important;
+    }
+    .tableHot{
+        width: 100% !important;
     }
   }
-  
+
   @media only screen and (max-width: 559px) and (min-width: 475px){
     .table{
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        /* width: 100% !important; */
+        width: 100% !important;
+    }
+    .tableHot{
+        width: 100% !important;
     }
   }
   
@@ -36,7 +50,10 @@
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        /* width: 100% !important; */
+        width: 100% !important;
+    }
+    .tableHot{
+        width: 100% !important;
     }
   }  
   
@@ -45,6 +62,9 @@
         float: none !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        /* width: 100% !important; */
+        width: 100% !important;
+    }
+    .tableHot{
+        width: 100% !important;
     }
   }

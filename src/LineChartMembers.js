@@ -102,15 +102,18 @@ class LineChartMembers extends Component {
                 loaderClass: 'hidden',
                 contentClass: ''
             });
+            this.handleIntervalChange(true, 561651, 'monthly');
         });
     }
     
     componentWillReceiveProps(nextProps) {
         this.requestData(nextProps);
+        window.resizeBy(0,0);
     }
     componentDidMount() {
         // Turn on the loading indicator
         this.setState({loaderClass: '', contentClass:'hidden'});
+        window.resizeBy(0,0);
     }
 
     handleIntervalChange = (event, index, value) => {
@@ -130,6 +133,7 @@ class LineChartMembers extends Component {
                 xFormat: '%Y%m%d',
             }
         });
+        window.resizeBy(0,0);
     }
 
     // Reformat data to .csv and prompt user for download
@@ -174,6 +178,7 @@ class LineChartMembers extends Component {
         for (var i=0;i<dates.length;i++) {
             fixedDates.push(fixDate(dates[i]));
         }
+        window.resizeBy(0,0);
         return fixedDates;
     }
 
@@ -187,6 +192,7 @@ class LineChartMembers extends Component {
                 scrollTable = ' scrollTable';
             }
         }
+        window.resizeBy(0,0);
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px', padding: '0 0', display: 'inline-block', width: '98%', align: 'center', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
                 <table style={{width: '100%'}}>
@@ -219,6 +225,7 @@ class LineChartMembers extends Component {
                 </div>
                 <div id="table2">
                     <DataTable
+                        id="weew"
                         data={spreadsheetData}
                         className={this.state.contentClass + scrollTable}
                         headers={['Date','Views']}

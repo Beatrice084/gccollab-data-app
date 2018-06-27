@@ -5,6 +5,11 @@
     height: 240px;
     width: 500px;
 }
+/* #weew{
+    background-color: black !important;
+    width: 100px !important;
+} */
+
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #lineChartPageviews{
         float: right !important;
@@ -25,7 +30,7 @@
         float: none !important;
         margin-left: auto !important;
     }
-  } 
+  }
   
   @media only screen and (max-width: 689px) and (min-width: 560px){
     #lineChartPageviews{

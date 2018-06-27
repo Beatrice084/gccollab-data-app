@@ -108,12 +108,21 @@ class LineChart2 extends Component {
                 loaderClass: 'hidden',
                 contentClass: '',
             });
+            console.log('wwwwwwwwww')
+            // setTimeout(function() {
+            this.handleIntervalChange(true, 561651, 'monthly');
+            // }, 0);
         });
     }
 
     // Repopulate graphs both on creation and on time changes
     componentWillReceiveProps(nextProps) {
         this.requestData(nextProps);
+        const resizeEvent = document.createEvent('HTMLEvents');
+        resizeEvent.initEvent('resize', true, true);
+        console.log('triggering resize...');
+        // getDOMNode(this.componentNode).dispatchEvent(resizeEvent);
+
     }
     componentDidMount() {
         // Turn on the loading indicator
@@ -123,6 +132,7 @@ class LineChart2 extends Component {
 
     handleIntervalChange = (event, index, value) => {
         // Deepcopy the backup data
+        console.log('handlingggg');
         let data = JSON.parse(JSON.stringify(this.state.dataBackup));
 
         // Apply final transformations for visualization
@@ -163,6 +173,7 @@ class LineChart2 extends Component {
             for (var i=0;i<data[0].length;i++) {
                 output.push([data[0][i], data[1][i]]);
             }
+            // this.handleIntervalChange();
             output.shift();
             return output;
         } else {
@@ -195,6 +206,7 @@ class LineChart2 extends Component {
                 scrollTable = ' scrollTable';
             }
         }
+        this.handleIntervalChange;
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px', padding: '0 0', display: 'inline-block', width: '98%', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
                 <table className="content-box-heading" style={{width: '100%'}}>
