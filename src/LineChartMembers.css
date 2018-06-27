@@ -2,6 +2,16 @@
     height: 240px;
     width: 500px;
 }
+.outercsv{
+    /* background-color: brown; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.topBar2{
+    width: 100%;
+    margin-bottom: 0px !important;
+}
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #lineChartMembers{
         float: right !important;
