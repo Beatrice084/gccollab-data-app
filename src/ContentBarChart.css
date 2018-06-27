@@ -14,6 +14,16 @@
     height: 200px !important; 
     padding: 5px !important;
 }
+.outercsv{
+    /* background-color: brown; */
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.topBar{
+    margin-bottom: 35px;
+    width: 100%;
+}
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #chart4{
         /* float: None;
