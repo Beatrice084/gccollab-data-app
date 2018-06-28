@@ -194,8 +194,9 @@ class ContentBarChart extends Component {
                         style={{borderBottom: '20px'}}
                         headers={['Title', 'Views']}
                     />
-                    <div className={this.state.dataTableClass}>
+                    <div id='showAlldiv' className={this.state.dataTableClass}>
                         <Button
+                            id = 'showAll'
                             primary={true}
                             onClick={() => {
                                 this.setState({
