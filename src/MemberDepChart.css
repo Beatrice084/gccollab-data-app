@@ -31,7 +31,6 @@
     position: absolute;
     bottom: 5px;
     left: 70%;
-    background-color: blueviolet !important;
 }
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #chart3{
@@ -59,7 +58,6 @@
         position: absolute;
         bottom: 5px;
         left: 43%;
-        background-color: orange !important;
     }
 }
 @media only screen and (max-width: 990px) and (min-width: 690px){
@@ -84,7 +82,6 @@
         position: absolute;
         bottom: 5px;
         left: 40%;
-        background-color: yellowgreen !important;
     }
 }
 @media only screen and (max-width: 990px) and (min-width: 790px){
@@ -120,7 +117,6 @@
         position: absolute;
         bottom: 5px;
         left: 37%;
-        background-color: pink !important;
     }
 }
 
@@ -144,7 +140,6 @@
         position: absolute;
         bottom: 5px;
         left: 35%;
-        background-color: aqua !important;
     }
 }
 
@@ -168,7 +163,6 @@
         position: absolute;
         bottom: 5px;
         left: 30%;
-        background-color: red !important;
     }
 }
 
@@ -192,6 +186,5 @@
         position: absolute;
         bottom: 5px;
         left: 30%;
-        background-color: lightblue !important;
     }
 }
