@@ -24,6 +24,19 @@
     margin-bottom: 35px;
     width: 100%;
 }
+#showAll{
+    position: absolute;
+    bottom: 10px;
+    left: 70%;
+    background-color: blueviolet !important;
+}
+#showAlldiv{
+    background-color: aquamarine !important;
+    margin-top:10px;
+}
+#table4{
+    margin-bottom: 0px;
+}
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #chart4{
         /* float: None;
@@ -46,6 +59,12 @@
         margin-right: 20% !important;
         margin-left: 16% !important;
     }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 43%;
+        background-color: orange !important;
+    }
 }
 @media only screen and (max-width: 990px) and (min-width: 690px){
     #chart4{
@@ -64,6 +83,12 @@
         padding: 5px !important;
         margin-right: 18% !important;
         margin-left: 8% !important; 
+    }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 40%;
+        background-color: yellowgreen !important;
     }
 }
 @media only screen and (max-width: 990px) and (min-width: 790px){
@@ -95,6 +120,12 @@
         height: 200px !important;
         /* padding: 5px !important; */
     }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 37%;
+        background-color: pink !important;
+    }
 }
 
 @media only screen and (max-width: 559px) and (min-width: 475px){
@@ -112,6 +143,12 @@
         width: 100% !important; 
         height: 200px !important;
         /* padding: 5px !important; */
+    }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 35%;
+        background-color: yellow !important;
     }
 }
 
@@ -131,6 +168,12 @@
         height: 200px !important;
         /* padding: 5px !important; */
     }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+        background-color: red !important;
+    }
 }
 
 @media only screen and (max-width: 375px){
@@ -148,5 +191,11 @@
         width: 100% !important; 
         height: 200px !important;
         /* padding: 5px !important; */
+    }
+    #showAll{
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+        background-color: lightblue !important;
     }
 }
