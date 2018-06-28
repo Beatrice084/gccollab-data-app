@@ -200,6 +200,7 @@ class MemberDepChart extends Component {
                     />
                     <div className={this.state.dataTableClass}>
                     <Button
+                        id = 'showAllg3'
                         primary={true}
                         onClick={() => {
                             this.setState({

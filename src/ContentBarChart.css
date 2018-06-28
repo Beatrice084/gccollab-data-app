@@ -26,16 +26,12 @@
 }
 #showAll{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 70%;
     background-color: blueviolet !important;
 }
-#showAlldiv{
-    background-color: aquamarine !important;
-    margin-top:10px;
-}
 #table4{
-    margin-bottom: 0px;
+    margin-bottom: 45px;
 }
 @media only screen and (max-width: 1175px) and (min-width: 990px){
     #chart4{
@@ -61,7 +57,7 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 43%;
         background-color: orange !important;
     }
@@ -86,7 +82,7 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 40%;
         background-color: yellowgreen !important;
     }
@@ -122,7 +118,7 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 37%;
         background-color: pink !important;
     }
@@ -146,9 +142,9 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 35%;
-        background-color: yellow !important;
+        background-color: aqua !important;
     }
 }
 
@@ -170,7 +166,7 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 30%;
         background-color: red !important;
     }
@@ -194,7 +190,7 @@
     }
     #showAll{
         position: absolute;
-        bottom: 0px;
+        bottom: 5px;
         left: 30%;
         background-color: lightblue !important;
     }
