@@ -161,21 +161,16 @@ class ContentBarChart extends Component {
     }
 
     render() {
-
         return (
             <Segment className="ind-content-box" style={{marginTop: '10px',padding:'0 0', display: 'inline-block', width: '98%', align: 'center', borderRadius: '5px', backgroundColor: '#f9f9f9', border: '2px solid lightgray'}}>
-                <table style={{width: '100%'}}>
+                <table className = 'topBar' style={{}}>
                     <tr>
                         <td>
-                            <span style={{float: 'left', verticalAlign: 'top', paddingLeft:'15px'}}> {this.props.title}
-                                <IconButton tooltip="Download data as CSV" style={{padding: 0, height:'40px', width:'40px'}} onClick={this.downloadCSV}>
+                            <span className = 'outercsv' style={{float: 'left', verticalAlign: 'top', paddingLeft:'15px'}}> {this.props.title}
+                                <IconButton className = 'innercsv' tooltip="Download data as CSV" style={{padding: 0, height:'40px', width:'40px'}} onClick={this.downloadCSV}>
                                     <FileFileDownload />
                                 </IconButton> 
                             </span>
-                            
-                        </td>
-                        <td>
-                            {this.state.groupName}
                         </td>
                     </tr>
                 </table>

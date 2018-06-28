@@ -49,8 +49,17 @@ def main(testing=False):
         if metric == 1: # Pageviews
             ga = gcga()
             ga.set_platform('gccollab')
+            # Establish database connection
+            gc.connect_to_database()
+            gc.create_session()
+            # Get the clean group name from the guid
+            url2 = url[url.find('profile/'):]
+            url3 = url2[url2.find('/')+1:]
+            group_guid = url3[:url3.find('/')]
+            group_name = gc.groups.name_from_guid(group_guid)
             # Request a dataframe containing pageviews and corresponding dates
             ret = ga.pageviews([url, 'NOToffset'], intervals=True, start_date=start_time, end_date=end_time)
+            ret['group_name'] = group_name
             print(json.dumps(ret))
 
         elif metric == 2: # Top content
