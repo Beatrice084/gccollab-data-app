@@ -73,6 +73,9 @@ class App extends Component {
   render() {
     return (
       <div className="App" id="container" style={{/*backgroundImage: "url(https://gccollab.ca//mod/gc_splash_page_collab/graphics/Peyto_Lake-Banff_NP-Canada.jpg)",*/backgroundColor: '#f9f9f9', height: "100%", maxWidth: '100%', align: "center"}}>
+        <div id="lang-toggle">
+            <a id="eng-toggle" class="lang">en</a> | <a id="fr-toggle" class="lang">fr</a>
+        </div>
         <div style={{height: '15px', width: '1px'}}></div>
         <div style={{maxWidth: '1200px', margin: '0 auto'}}>
         <MuiThemeProvider>
