@@ -18,6 +18,22 @@ def get_group_guid(urlString):
     url3 = url2[url2.find('/')+1:]
     return url3[:url3.find('/')]
 
+def get_group_name(urlString, req_type):
+    try:
+        url2 = urlString[urlString.find('profile/'):]
+        url3 = url2[url2.find('/')+1:]
+        url4 = url3[url3.find('/')+1:]
+        return url4
+    except:
+        gc.connect_to_database()
+        gc.create_session()
+        url = req_type['filter']
+        url2 = url[url.find('profile/'):]
+        url3 = url2[url2.find('/')+1:]
+        group_guid = url3[:url3.find('/')]
+        group_name = gc.groups.name_from_guid(group_guid)
+        return group_name
+
 #Read data from stdin
 def read_in():
     lines = sys.stdin.readlines()
@@ -49,14 +65,9 @@ def main(testing=False):
         if metric == 1: # Pageviews
             ga = gcga()
             ga.set_platform('gccollab')
-            # Establish database connection
-            gc.connect_to_database()
-            gc.create_session()
-            # Get the clean group name from the guid
-            url2 = url[url.find('profile/'):]
-            url3 = url2[url2.find('/')+1:]
-            group_guid = url3[:url3.find('/')]
-            group_name = gc.groups.name_from_guid(group_guid)
+            
+            group_name = get_group_name(url, req_type)
+
             # Request a dataframe containing pageviews and corresponding dates
             ret = ga.pageviews([url, 'NOToffset'], intervals=True, start_date=start_time, end_date=end_time)
             ret['group_name'] = group_name
